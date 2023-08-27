@@ -1,0 +1,80 @@
+main {
+  height: calc(100vh - 200px);
+  color: white;
+}
+
+main > div {
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+main > div > .img_main_title {
+  width: 500px;
+  height: 100px;
+  margin-bottom: 28px;
+}
+
+main > div > .title > h2 {
+  font-size: 28px;
+  margin-bottom: 28px;
+}
+
+main > div > .title > p {
+  color: rgb(255, 255, 255, 0.6);
+  width: 800px;
+  margin-bottom: 36px;
+}
+
+main > div > .title > ul {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+main > div > .title > ul > li {
+  margin-right: 20px;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+main > div > .title > ul > li > strong {
+  margin-right: 10px;
+  color: white;
+}
+
+main > div > .title2 {
+  display: flex;
+}
+
+main > div > .title2 > p {
+  margin-right: 20px;
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 100px;
+}
+
+main > div > .aside1 {
+  position: absolute;
+  top: 50%;
+  right: 36px;
+  transform: translateY(-50%);
+  transform: rotate(270deg);
+  /* font-size: 28px; */
+}
+
+main > div > .aside2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  font-size: 28px;
+  animation: modifyarrow 1s linear infinite;
+}
+
+@keyframes modifyarrow {
+  50% {
+    transform: translate(12px, -50%);
+  }
+}

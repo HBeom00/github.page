@@ -1,0 +1,45 @@
+body {
+  background-image: url(../assist/img/jw1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 40px;
+}
+
+header > div > .img_logo {
+  width: 45px;
+  height: 45px;
+}
+
+header > div {
+  display: flex;
+  align-items: center;
+}
+
+header > div > .menu {
+  margin-left: 80px;
+}
+
+header > div > .menu > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin-right: 20px;
+}
+
+header > div > .menu > a:hover {
+  color: red;
+}
+
+header > .img_hamberger {
+  width: 45px;
+  height: 45px;
+  color: white;
+}
